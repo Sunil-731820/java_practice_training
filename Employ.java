@@ -1,17 +1,11 @@
-package com.java.demo;
-
+package com.java.listInterface1;
+import java.util.*;
 public class Employ {
 	int empno;
 	String name ;
-	double basic ;
-	public Employ() {
-		this.empno = 5;
-		this.name = "Sunil";
-		this.basic = 12111;
-	}
-
-
+	double basic;
 	public Employ(int empno, String name, double basic) {
+		super();
 		this.empno = empno;
 		this.name = name;
 		this.basic = basic;
@@ -20,7 +14,6 @@ public class Employ {
 	public String toString() {
 		return "Employ [empno=" + empno + ", name=" + name + ", basic=" + basic + "]";
 	}
-	
 	
 
 }
